@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vmin;
+}
+
 .hideItem{
     display: none;
 }
@@ -11,61 +15,64 @@
 header{
     display: flex;
     flex-direction: row;
-    margin: 0px, 0px, 0px, 0px;
-    padding: 0% 15% 0% 15%;
+    margin: 0, auto;
+    padding: 0 10% 0 10%;
     position: fixed;
     width: 100%;
     top: 0;
     overflow: hidden;
-    height: fit-content;
+    height: 85px;
     background-color: rgb(255, 255, 255)
 }
 
 .headerLogoAera{
-    width: fit-content;
+    width: 15%;
     height: fit-content;
 }
 
 .headerLogo{
-    margin: 25% 0px 5px 25%;
-    align-content: center;
-    width: 40px;
-    height: 40px;
-}
-
-.topMenuTitle{
-    padding: 14px 0px 0px 30px;
-    font-family: Cursive, Helvetica, sans-serif;
-    font-size: 20px;
+    margin: 15px 5px 5px 5px;
+    width: 100px;
+    height: 70px;
+    background-image: url(./assets/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .topMenu{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+    width: 85%;
+    padding: 28px 5px 0px 0px;
+    text-align: right;
     display: inline;
-    margin: 0;
-    margin: 0px 0px 0px 100px;
-    padding: 12px 0px 12px 10px;
     font-family: Cursive, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
+    transition: 0.5s;
 }
 
 li{
     display: inline;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 5px;
     width: 100%;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgba(99, 99, 99, 0.616);
 }
 
 .slider{
     width: 100%;
-    height: 700px;
+    height: 97vmin;
     display: flex;
     flex-direction: row;
 }
 
 .sliderButtonPrevious{
     width: 5%;
+    height: fit-content;
     display: flex;
     justify-content: flex-start;
     margin-right: auto;
@@ -73,8 +80,15 @@ li{
 }
 
 .leftArrowSlider{
-    width: 30px;
-    height: 30px;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.leftArrowSlider:hover{
+    fill: rgba(99, 99, 99, 0.616);
+    transition: 0.5s;
 }
 
 .sliderTextArea{
@@ -91,12 +105,16 @@ li{
 }
 
 .rightArrowSlider{
-    width: 30px;
-    height: 30px;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+    transition: 0.5s;
 }
 
-
-
+.rightArrowSlider:hover{
+    fill: rgba(99, 99, 99, 0.616);
+    transition: 0.5s;
+}
 
 
 /* Start slide */
@@ -153,6 +171,8 @@ li{
 }
 
 footer{
+    height: fit-content;
+    padding: 3px 0px 5px 0px;
     font-family: Cursive, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
@@ -166,39 +186,38 @@ footer{
     header{
         margin: 0;
         padding: 0;
+        width: 100%;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         position: relative;
     }
 
     .headerLogoAera{
+        margin: 0;
+        padding: 0;
         width: 100%;
-        padding: 0px 0px 0px 5px;
+        height: fit-content;
     }
 
     .headerLogo{
         margin: 0;
-        width: 40px;
-        height: 40px;
+        padding: 0;
+        width: 100px;
+        background-image: url(./assets/logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
     }
-
-    .topMenuTitle{
-        margin: 0;
-        padding: 0px 0px 0px 5px;
-        font-family: Cursive, Helvetica, sans-serif;
-        font-size: 20px;
-    }
-
-
 
     .topMenu{
-        flex-direction: column;
-        list-style-type: none;
-        display: inline;
         margin: 0;
-        margin: 0px 0px 0px 0px;
         padding: 0;
-        display: inline;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 16px;
     }
 
 }
