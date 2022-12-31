@@ -106,16 +106,3 @@ function hideSlides() {
     document.getElementById('sliderBackground5').classList.remove('sliderBackground5');
     document.getElementById('sliderBackground5').classList.add('hideItem');
 }
-
-
-
-
-// Previous slide
-document.getElementById('leftArrowSlider').addEventListener('click', function() {
-
-})
-
-// Next slide
-document.getElementById('rightArrowSlider').addEventListener('click', function() {
-    console.log("rightArrowSlider clicked!!")
-})

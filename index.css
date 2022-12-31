@@ -138,8 +138,6 @@ li:hover{
 
 /* Slide2 - "Sprzęt" */
 .sliderBackground2{
-    padding: 0;
-    transition: padding-right 5s;
     width: 100%;
     display: flex;
     align-items: center;
@@ -149,7 +147,9 @@ li:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: animatedBackground 10s linear infinite alternate;
 }
+
 
 /* Slide3 - "Sieci" */
 .sliderBackground3{
@@ -198,7 +198,6 @@ footer{
     max-height: fit-content;
     font-family: Cursive, Helvetica, sans-serif;
     font-size: 14px;
-    /* text-align: center; */
     text-decoration: none;
 }
 
@@ -241,6 +240,14 @@ footer{
         flex-direction: column;
         text-align: left;
         font-size: 16px;
+    }
+
+    .sliderButtonPrevious{
+        display: none;
+    }
+
+    .sliderButtonNext{
+        display: none;
     }
 
 }
