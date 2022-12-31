@@ -61,11 +61,17 @@ li:hover{
     cursor: pointer;
     transition: 0.5s;
     color: rgba(99, 99, 99, 0.616);
+    transition: 0.5s;
+}
+
+.liActive{
+    color: rgba(99, 99, 99, 0.616);
+    transition: 0.5s;
 }
 
 .slider{
     width: 100%;
-    height: 97vmin;
+    height: 95vmin;
     display: flex;
     flex-direction: row;
 }
@@ -116,23 +122,24 @@ li:hover{
     transition: 0.5s;
 }
 
-
-/* Start slide */
+/* Slide1 - "O mnie" */
 .sliderBackground1{
     width: 100%;
     display: flex;
     align-items: center;
     background-color: rgb(160, 142, 142);
     background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.645) 100%),
-    url(./assets/laptop.jpg);
+    url(./assets/laptopPendrive.jpg);
     /* background-attachment: fixed; */
     background-attachment:scroll;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
-/* Laptop fix */
+/* Slide2 - "Sprzęt" */
 .sliderBackground2{
+    padding: 0;
+    transition: padding-right 5s;
     width: 100%;
     display: flex;
     align-items: center;
@@ -144,21 +151,8 @@ li:hover{
     background-size: cover;
 }
 
-/* PC fix */
+/* Slide3 - "Sieci" */
 .sliderBackground3{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: rgb(160, 142, 142);
-    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.645) 100%),
-    url(./assets/pcFix.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Network fix */
-.sliderBackground4{
     width: 100%;
     display: flex;
     align-items: center;
@@ -170,12 +164,41 @@ li:hover{
     background-size: cover;
 }
 
+/* Slide4 - "Usługi" */
+.sliderBackground4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(160, 142, 142);
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.645) 100%),
+    url(./assets/pcFix.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Slide5 - "Kontakt" */
+.sliderBackground5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(160, 142, 142);
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.645) 100%),
+    url(./assets/laptop.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 footer{
-    height: fit-content;
-    padding: 3px 0px 5px 0px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 5vmin;
+    max-height: fit-content;
     font-family: Cursive, Helvetica, sans-serif;
-    font-size: 16px;
-    text-align: center;
+    font-size: 14px;
+    /* text-align: center; */
     text-decoration: none;
 }
 

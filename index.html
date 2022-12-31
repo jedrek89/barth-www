@@ -15,19 +15,20 @@
         </div>
         <div id="topMenu" class="topMenu">
             <ul class="topMenu">
-                <li>O mnie</li>
-                <li>Sprzęt</li>
-                <li>Sieci</li>
-                <li>Usługi</li>
-                <li>Kontakt</li>
+                <li id="aboutMe" class="liActive">O mnie</li>
+                <li id="hardware" class="">Sprzęt</li>
+                <li id="networks" class="">Sieci</li>
+                <li id="services" class="">Usługi</li>
+                <li id="contact" class="">Kontakt</li>
             </ul>
 
     </header>
 
+    <!-- Slide1 - "O mnie" -->
     <div id="slider" class="slider">
         <div id="sliderBackground1" class="sliderBackground1">
             <div id="sliderButtonPrevious" class="sliderButtonPrevious">
-                <div class="leftArrowSlider" id="">
+                <div class="leftArrowSlider" id="leftArrowSlider">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="M350.65 117.68 221.03 255.76l129.62 138.08c4.67 4.96 4.43 12.76-.53 17.43l-100.74 96.79c-4.9 4.72-12.71 4.57-17.43-.33L3.35 264.21c-4.49-4.78-4.44-12.19 0-16.9L231.86 3.88c4.66-4.96 12.47-5.2 17.43-.53l100.92 96.99c4.88 4.69 5.06 12.42.44 17.34zM195.13 247.31l129.21-137.64-83.05-79.8L29.25 255.76l212.04 225.89 83.05-79.8-129.21-137.64c-4.43-4.71-4.49-12.12 0-16.9z"/></svg>
                 </div>
             </div>
@@ -35,11 +36,81 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fuga esse voluptate facilis molestias maxime ea magni, sunt expedita impedit dolorem? Deleniti culpa consectetur impedit consequuntur quisquam eligendi, aut mollitia?
             </div>
             <div id="sliderButtonNext" class="sliderButtonNext">
-                <div class="rightArrowSlider" id="">
+                <div class="rightArrowSlider" id="rightArrowSlider">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="m3.35 393.83 129.62-138.08L3.35 117.67c-4.67-4.96-4.43-12.76.53-17.43l100.74-96.8c4.9-4.72 12.71-4.56 17.43.34l228.6 243.52c4.49 4.77 4.44 12.19 0 16.9L122.14 507.63c-4.66 4.96-12.47 5.19-17.43.53L3.79 411.17c-4.88-4.69-5.06-12.42-.44-17.34zM158.87 264.2 29.66 401.84l83.05 79.8 212.04-225.89L112.71 29.86l-83.05 79.8L158.87 247.3c4.43 4.71 4.49 12.12 0 16.9z"/></svg>     
                 </div>
             </div>
         </div>
+
+        <!-- Slide2 "Sprzęt" -->
+        <div id="sliderBackground2" class="hideItem">
+            <div id="sliderButtonPrevious" class="sliderButtonPrevious">
+                <div class="leftArrowSlider" id="leftArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="M350.65 117.68 221.03 255.76l129.62 138.08c4.67 4.96 4.43 12.76-.53 17.43l-100.74 96.79c-4.9 4.72-12.71 4.57-17.43-.33L3.35 264.21c-4.49-4.78-4.44-12.19 0-16.9L231.86 3.88c4.66-4.96 12.47-5.2 17.43-.53l100.92 96.99c4.88 4.69 5.06 12.42.44 17.34zM195.13 247.31l129.21-137.64-83.05-79.8L29.25 255.76l212.04 225.89 83.05-79.8-129.21-137.64c-4.43-4.71-4.49-12.12 0-16.9z"/></svg>
+                </div>
+            </div>
+            <div id="sliderTextArea" class="sliderTextArea">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fuga esse voluptate facilis molestias maxime ea magni, sunt expedita impedit dolorem? Deleniti culpa consectetur impedit consequuntur quisquam eligendi, aut mollitia?
+            </div>
+            <div id="sliderButtonNext" class="sliderButtonNext">
+                <div class="rightArrowSlider" id="rightArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="m3.35 393.83 129.62-138.08L3.35 117.67c-4.67-4.96-4.43-12.76.53-17.43l100.74-96.8c4.9-4.72 12.71-4.56 17.43.34l228.6 243.52c4.49 4.77 4.44 12.19 0 16.9L122.14 507.63c-4.66 4.96-12.47 5.19-17.43.53L3.79 411.17c-4.88-4.69-5.06-12.42-.44-17.34zM158.87 264.2 29.66 401.84l83.05 79.8 212.04-225.89L112.71 29.86l-83.05 79.8L158.87 247.3c4.43 4.71 4.49 12.12 0 16.9z"/></svg>     
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide3 "Sieci" -->
+        <div id="sliderBackground3" class="hideItem">
+            <div id="sliderButtonPrevious" class="sliderButtonPrevious">
+                <div class="leftArrowSlider" id="leftArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="M350.65 117.68 221.03 255.76l129.62 138.08c4.67 4.96 4.43 12.76-.53 17.43l-100.74 96.79c-4.9 4.72-12.71 4.57-17.43-.33L3.35 264.21c-4.49-4.78-4.44-12.19 0-16.9L231.86 3.88c4.66-4.96 12.47-5.2 17.43-.53l100.92 96.99c4.88 4.69 5.06 12.42.44 17.34zM195.13 247.31l129.21-137.64-83.05-79.8L29.25 255.76l212.04 225.89 83.05-79.8-129.21-137.64c-4.43-4.71-4.49-12.12 0-16.9z"/></svg>
+                </div>
+            </div>
+            <div id="sliderTextArea" class="sliderTextArea">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fuga esse voluptate facilis molestias maxime ea magni, sunt expedita impedit dolorem? Deleniti culpa consectetur impedit consequuntur quisquam eligendi, aut mollitia?
+            </div>
+            <div id="sliderButtonNext" class="sliderButtonNext">
+                <div class="rightArrowSlider" id="rightArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="m3.35 393.83 129.62-138.08L3.35 117.67c-4.67-4.96-4.43-12.76.53-17.43l100.74-96.8c4.9-4.72 12.71-4.56 17.43.34l228.6 243.52c4.49 4.77 4.44 12.19 0 16.9L122.14 507.63c-4.66 4.96-12.47 5.19-17.43.53L3.79 411.17c-4.88-4.69-5.06-12.42-.44-17.34zM158.87 264.2 29.66 401.84l83.05 79.8 212.04-225.89L112.71 29.86l-83.05 79.8L158.87 247.3c4.43 4.71 4.49 12.12 0 16.9z"/></svg>     
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide4 "Usługi" -->
+        <div id="sliderBackground4" class="hideItem">
+            <div id="sliderButtonPrevious" class="sliderButtonPrevious">
+                <div class="leftArrowSlider" id="leftArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="M350.65 117.68 221.03 255.76l129.62 138.08c4.67 4.96 4.43 12.76-.53 17.43l-100.74 96.79c-4.9 4.72-12.71 4.57-17.43-.33L3.35 264.21c-4.49-4.78-4.44-12.19 0-16.9L231.86 3.88c4.66-4.96 12.47-5.2 17.43-.53l100.92 96.99c4.88 4.69 5.06 12.42.44 17.34zM195.13 247.31l129.21-137.64-83.05-79.8L29.25 255.76l212.04 225.89 83.05-79.8-129.21-137.64c-4.43-4.71-4.49-12.12 0-16.9z"/></svg>
+                </div>
+            </div>
+            <div id="sliderTextArea" class="sliderTextArea">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fuga esse voluptate facilis molestias maxime ea magni, sunt expedita impedit dolorem? Deleniti culpa consectetur impedit consequuntur quisquam eligendi, aut mollitia?
+            </div>
+            <div id="sliderButtonNext" class="sliderButtonNext">
+                <div class="rightArrowSlider" id="rightArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="m3.35 393.83 129.62-138.08L3.35 117.67c-4.67-4.96-4.43-12.76.53-17.43l100.74-96.8c4.9-4.72 12.71-4.56 17.43.34l228.6 243.52c4.49 4.77 4.44 12.19 0 16.9L122.14 507.63c-4.66 4.96-12.47 5.19-17.43.53L3.79 411.17c-4.88-4.69-5.06-12.42-.44-17.34zM158.87 264.2 29.66 401.84l83.05 79.8 212.04-225.89L112.71 29.86l-83.05 79.8L158.87 247.3c4.43 4.71 4.49 12.12 0 16.9z"/></svg>     
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide5 "Kontakt" -->
+        <div id="sliderBackground5" class="hideItem">
+            <div id="sliderButtonPrevious" class="sliderButtonPrevious">
+                <div class="leftArrowSlider" id="leftArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="M350.65 117.68 221.03 255.76l129.62 138.08c4.67 4.96 4.43 12.76-.53 17.43l-100.74 96.79c-4.9 4.72-12.71 4.57-17.43-.33L3.35 264.21c-4.49-4.78-4.44-12.19 0-16.9L231.86 3.88c4.66-4.96 12.47-5.2 17.43-.53l100.92 96.99c4.88 4.69 5.06 12.42.44 17.34zM195.13 247.31l129.21-137.64-83.05-79.8L29.25 255.76l212.04 225.89 83.05-79.8-129.21-137.64c-4.43-4.71-4.49-12.12 0-16.9z"/></svg>
+                </div>
+            </div>
+            <div id="sliderTextArea" class="sliderTextArea">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fuga esse voluptate facilis molestias maxime ea magni, sunt expedita impedit dolorem? Deleniti culpa consectetur impedit consequuntur quisquam eligendi, aut mollitia?
+            </div>
+            <div id="sliderButtonNext" class="sliderButtonNext">
+                <div class="rightArrowSlider" id="rightArrowSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="50px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 354 511.51"><path fill-rule="nonzero" d="m3.35 393.83 129.62-138.08L3.35 117.67c-4.67-4.96-4.43-12.76.53-17.43l100.74-96.8c4.9-4.72 12.71-4.56 17.43.34l228.6 243.52c4.49 4.77 4.44 12.19 0 16.9L122.14 507.63c-4.66 4.96-12.47 5.19-17.43.53L3.79 411.17c-4.88-4.69-5.06-12.42-.44-17.34zM158.87 264.2 29.66 401.84l83.05 79.8 212.04-225.89L112.71 29.86l-83.05 79.8L158.87 247.3c4.43 4.71 4.49 12.12 0 16.9z"/></svg>     
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
     <footer>©<span id="year"></span><a href="https://github.com/jedrek89">jedrek89</a></footer>
