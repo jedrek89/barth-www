@@ -198,7 +198,7 @@ li:hover{
 
 .slide2textArea2_box1{
     width: 25%;
-    height: 320px;
+    height: 300px;
     background-color: #e7d8d8;
     transition: 0.7s;
 }
@@ -214,7 +214,7 @@ li:hover{
 }
 
 .slide2textArea2_box1_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -222,7 +222,7 @@ li:hover{
 
 .slide2textArea2_box2{
     width: 25%;
-    height: 320px;
+    height: 300px;
     background-color: #e7d8d8;
     transition: 0.7s;
 }
@@ -235,7 +235,7 @@ li:hover{
 }
 
 .slide2textArea2_box2_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -243,7 +243,7 @@ li:hover{
 
 .slide2textArea2_box3{
     width: 25%;
-    height: 320px;
+    height: 300px;
     background-color: #e7d8d8;
     transition: 0.7s;
 }
@@ -259,7 +259,7 @@ li:hover{
 }
 
 .slide2textArea2_box3_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -326,7 +326,7 @@ li:hover{
 
 .slide3textArea2_box1{
     width: 25%;
-    height: 320px;
+    height: 300px;
     background-color: #e7d8d8;
     transition: 0.7s;
 }
@@ -342,7 +342,7 @@ li:hover{
 }
 
 .slide3textArea2_box1_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -350,7 +350,7 @@ li:hover{
 
 .slide3textArea2_box2{
     width: 25%;
-    height: 320px;
+    height: 300px;
     background-color: #e7d8d8;
     transition: 0.7s;
 }
@@ -363,7 +363,7 @@ li:hover{
 }
 
 .slide3textArea2_box2_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -371,7 +371,7 @@ li:hover{
 
 .slide3textArea2_box3{
     width: 25%;
-    height: 320px;
+    height: 300px;
     background-color: #e7d8d8;
     transition: 0.7s;
 }
@@ -387,7 +387,7 @@ li:hover{
 }
 
 .slide3textArea2_box3_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -469,7 +469,7 @@ li:hover{
 }
 
 .slide4textArea2_box1_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -490,7 +490,7 @@ li:hover{
 }
 
 .slide4textArea2_box2_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -506,7 +506,7 @@ li:hover{
 
 .slide4textArea2_box3_image{
     margin: auto;
-    padding: 5% 5% 0% 5%;
+    padding: 5% 5% 5% 5%;
     display: flex;
     align-self: center;
     width: 150px;
@@ -514,7 +514,7 @@ li:hover{
 }
 
 .slide4textArea2_box3_text{
-    padding: 2% 0% 5% 0%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     color: #0e0d0d;
     text-shadow: 1px 1px 1px #8b8383;
@@ -546,10 +546,63 @@ li:hover{
     padding: 0px 20px 0px 20px;
 }
 
-.sliderTextArea5{
-    margin: 0% 5% 0% 5%;
-    width: 90%;
-    padding: 0px 20px 0px 20px;
+.slide5textArea1{
+    width: 100%;
+    height: 20%;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Cursive, Helvetica, sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.4px;
+    word-spacing: 6px;
+    color: #e8dada;
+    text-shadow: 1px 1px 1px #8b8383;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.slide5textArea2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 80px 0px 20px 0px;
+    min-height: 80%;
+    max-height: fit-content;
+    text-align: center;
+    font-family: Cursive, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    word-spacing: 6px;
+}
+
+.slide5textArea2_box1{
+    width: 50%;
+    height: 320px;
+    background-color: #e7d8d8;
+    transition: 0.7s;
+}
+
+.slide5textArea2_box1_image{
+    margin: auto;
+    padding: 5% 5% 0% 5%;
+    display: flex;
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    fill: #000000;
+}
+
+.slide5textArea2_box1_text{
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    color: #0e0d0d;
+    text-shadow: 1px 1px 1px #8b8383;
+}
+
+.slide5textArea2_box1:hover{
+    background-color: #938989;
+    transition: 0.7s;
 }
 
 footer{
@@ -673,6 +726,71 @@ footer{
         height: fit-content;
         width: 100%;
         margin-top: 10px;
+    }
+
+    .slide3textArea1{
+        padding-top: 10px;
+        font-size: 30px;
+        height: fit-content;
+    }
+    
+    .slide3textArea2{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slide3textArea2_box1, .slide3textArea2_box2, .slide3textArea2_box3{
+        font-size: 16px;
+        height: fit-content;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .slide4textArea1{
+        padding-top: 10px;
+        font-size: 30px;
+        height: fit-content;
+    }
+    
+    .slide4textArea2{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slide4textArea2_box1, .slide4textArea2_box2, .slide4textArea2_box3{
+        font-size: 16px;
+        height: fit-content;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .slide5textArea1{
+        padding-top: 10px;
+        font-size: 30px;
+        height: fit-content;
+    }
+    
+    .slide5textArea2{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slide5textArea2_box1{
+        font-size: 20px;
+        height: fit-content;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .slide5textArea2_box1_image{
+        width: 100px;
+        height: 100px;
     }
 
 

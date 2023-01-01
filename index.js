@@ -9,7 +9,6 @@ document.getElementById('headerLogo').addEventListener('click', function() {
     removeClasses();
     document.getElementById('aboutMe').classList.add('liActive');
     slide1();
-    console.log("slideStatus", slideStatus);
 })
 
 
@@ -19,7 +18,6 @@ document.getElementById('aboutMe').addEventListener('click', function() {
     removeClasses();
     document.getElementById('aboutMe').classList.add('liActive');
     slide1();
-    console.log("slideStatus", slideStatus);
 })
 
 // Slide 2
@@ -28,7 +26,6 @@ document.getElementById('hardware').addEventListener('click', function() {
     removeClasses();
     document.getElementById('hardware').classList.add('liActive');
     slide2();
-    console.log("slideStatus", slideStatus);
 })
 
 // Slide 3
@@ -37,7 +34,6 @@ document.getElementById('networks').addEventListener('click', function() {
     removeClasses();
     document.getElementById('networks').classList.add('liActive');
     slide3();
-    console.log("slideStatus", slideStatus);
 })
 
 // Slide 4
@@ -46,7 +42,6 @@ document.getElementById('services').addEventListener('click', function() {
     removeClasses();
     document.getElementById('services').classList.add('liActive');
     slide4();
-    console.log("slideStatus", slideStatus);
 })
 
 // Slide 5
@@ -55,7 +50,6 @@ document.getElementById('contact').addEventListener('click', function() {
     removeClasses();
     document.getElementById('contact').classList.add('liActive');
     slide5();
-    console.log("slideStatus", slideStatus);
 })
 
 
