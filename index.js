@@ -1,16 +1,13 @@
 // date for footer
 document.getElementById("year").innerHTML = new Date().getFullYear() + " ";
 
-let slideStatus;
-slideStatus = 1;
-
+// Navigate to home page after click a logo
 document.getElementById('headerLogo').addEventListener('click', function() {
     slideStatus = 1;
     removeClasses();
     document.getElementById('aboutMe').classList.add('liActive');
     slide1();
 })
-
 
 // Slide 1
 document.getElementById('aboutMe').addEventListener('click', function() {
