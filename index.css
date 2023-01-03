@@ -5,9 +5,7 @@
 }
 
 body{
-    min-height: 100vh;
-    /* min-height:100%; */
-    position:relative;
+    height: 100vh;
 }
 
 .hideItem{
@@ -26,7 +24,7 @@ header{
     width: 100%;
     top: 0;
     overflow: hidden;
-    min-height: 9vmin;
+    min-height: 9vh;
     max-height: fit-content;
     background-color: rgb(255, 255, 255);
 }
@@ -84,19 +82,12 @@ li:hover{
 
 .slider{
     width: 100%;
-    min-height: 86vmin;
-    max-height: fit-content;
+    overflow: hidden;
+    min-height: 86vh;
     display: flex;
     flex-direction: row;
     overflow: hidden;
 }
-
-/* .sliderTextArea{
-    margin: 0% 5% 0% 5%;
-    width: 90%;
-    padding: 0px 20px 0px 20px;
-} */
-
 
 /* Slide1 - "O mnie" */
 .sliderBackground1{
@@ -619,11 +610,12 @@ li:hover{
 }
 
 footer{
+    margin: 0, auto;
+    padding-top: 2px;
     display: flex;
-    justify-content:center;
-    align-items:center;
-    height: 5vmin;
-    /* max-height: fit-content; */
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
     font-family: Cursive, Helvetica, sans-serif;
     font-size: 14px;
     text-decoration: none;
